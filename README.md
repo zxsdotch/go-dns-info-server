@@ -8,7 +8,7 @@ The purpose of this server is primarily for integration testing of DNS
 clients -- specifically to ensure that caching is working as expected and/or
 that cache busting is working as expected.
 
-The server is running at: `dns-info.zxs.ch`. Give it a try with e.g.:
+Example, if the server is running at: `dns-info.zxs.ch`:
 ```bash
 dig +short TXT dns-info.zxs.ch
 
